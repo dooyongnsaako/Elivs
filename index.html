@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>makeMeElvis.com</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sendmail.html">Send Mail</a></li>
+        <li><a href="deleteEmail.html">Delete Member</a></li>
+    </ul>
+</nav>
+<div class="wrapper">
+    <p>Enter your firstname, lastname and email to be addded to the makeMeElvis mailing list</p>
+    <form method="POST" action="addtolist.php">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname"> <br>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname"> <br>
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email"> <br>
+        <input type="submit" name="submit">
+    </form>
+</div>
+</body>
+</html>

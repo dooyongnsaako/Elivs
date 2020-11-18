@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sendmail.html">Send Mail</a></li>
+            <li><a href="deleteEmail.html">Delete Member</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <p>Private: only for Admin <br> Write and send an email to mailing list members</p>
+        <form method="POST" action="addtolist.php">
+            <label for="subject">Subject of Email</label>
+            <input type="text" id="firstname" name="subject"> <br>
+            <label for="text">Body of mail</label>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea> <br>
+            <input type="submit" value="Send" name="submit">
+        </form>
+    </div>  
+</body>
+</html>
