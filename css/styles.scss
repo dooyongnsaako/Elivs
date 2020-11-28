@@ -3,7 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: red;
+}
+.alert {
+  background-color: #69f36e;
+  color: #333;
+  padding: 10px 0;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
 nav {
   width: 80%;
   padding: 10px;

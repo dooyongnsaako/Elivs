@@ -1,0 +1,1 @@
+let alert = document.querySelector(".alert");
